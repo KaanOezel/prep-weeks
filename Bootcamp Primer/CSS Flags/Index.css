@@ -1,0 +1,352 @@
+body {
+    background-image: url(bg.jpg);
+    background-size: cover; 
+    background-attachment: fixed;
+    height: 100vh;
+}
+
+h1 {
+    color: white;
+    text-align: center;
+}
+.japan-background {
+    height: 200px;
+    width: 300px;
+    margin: 25px 10px;
+    background-color: white;
+    display: inline-block;
+    overflow: hidden;
+
+}
+
+.japan-dot {
+    background-color: red;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+    margin-top: 50px;
+    margin-left: 100px;
+
+}
+
+.france-background {
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    margin: 25px 10px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.france-left {
+    height: 200px;
+    width: 100px;
+    background-color: blue;
+    
+}
+
+.france-middle {
+    height: 200px;
+    width: 100px;
+    background-color: white;
+    margin-left: 100px;
+}
+
+.france-right {
+    height: 200px;
+    width: 100px;
+    background-color: red;
+    margin-left: 100px;
+}
+
+.ger-background {
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    margin: 25px 10px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.ger-top {
+    height: 33.33%;
+    width: 300px;
+    background-color: black;
+    margin-top: 0;
+}
+
+.ger-middle {
+    height: 33.33%;
+    width: 300px;
+    background-color: red;
+    
+}
+
+.ger-bottom {
+    height: 33.34%;
+    width: 300px;
+    background-color: gold;
+}
+
+.mad-background {
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    margin: 25px 10px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.mad-red {
+    height: 100px;
+    width: 200px;
+    background-color: red;
+    margin-left: 100px;
+    
+}
+
+.mad-green {
+    height: 100px;
+    width: 200px;
+    background-color: green;
+    margin-left: 100px;
+}
+
+
+.ch-background {
+    height: 200px;
+    width: 300px;
+    background-color: red;
+    margin: 25px 10px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.ch-vertical {
+    background-color: white;
+    height: 120px;
+    position: relative;
+    width: 40px;
+    margin: auto;
+    top: 40px;
+    
+}
+
+.ch-horizontal {
+    background-color: white;
+    height: 40px;
+    width: 120px;
+    position: absolute;
+    right: -40px;
+    top: 40px;
+}
+
+
+
+.swe-background {
+    height: 200px;
+    width: 300px;
+    background-color: #004B87;
+    margin: 25px 10px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.swe-vertical {
+    background-color: #FFCD00;
+    height: 100%;
+    position: relative;
+    width: 40px;
+    left: 70px;
+    
+}
+
+.swe-horizontal {
+    background-color: #FFCD00;
+    height: 40px;
+    width: 300px;
+    position: absolute;
+    left: -70px;
+    top: 80px;
+}
+
+
+.gambia-bg {
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    margin: 25px 10px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.gambia-red {
+    height: 33.33%;
+    width: 300px;
+    background-color: #CE1126;
+    margin-top: 0;
+}
+
+.gambia-blue {
+    height: 24.33%;
+    width: 300px;
+    background-color: #0C1C8C;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    
+}
+
+.gambia-green {
+    height: 33.34%;
+    width: 300px;
+    background-color: #3A7728;
+}
+
+
+
+.tonga-bg {
+    height: 200px;
+    width: 300px;
+    background-color: #CE1126;
+    margin: 25px 10px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.tonga-corner {
+    height: 100px;
+    width: 150px;
+    background-color: white;
+      
+}
+
+.tonga-vertical {
+    background-color: red;
+    height: 60px;
+    position: relative;
+    width: 20px;
+    margin: auto;
+    top: 20px;
+    
+}
+
+.tonga-horizontal {
+    background-color: red;
+    height: 20px;
+    width: 60px;
+    position: absolute;
+    left: -20px;
+    top: 20px;   
+}
+
+
+.niger-bg {
+    height: 200px;
+    width: 300px;
+    background-color: white;
+    margin: 25px 10px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.niger-top {
+    height: 33.33%;
+    width: 300px;
+    background-color: #E05206;
+    margin-top: 0;
+}
+
+.niger-middle {
+    height: 33.33%;
+    width: 300px;
+    background-color: white;
+    
+}
+
+.niger-bottom {
+    height: 33.34%;
+    width: 300px;
+    background-color: #0DB02B;
+}
+
+.niger-dot {
+    background-color: #E05206;
+    height: 60px;
+    width: 60px;
+    position: absolute;
+    border-radius: 50%;
+    margin-left: 110px;
+    margin-top: 5px;
+}
+
+
+.mald-bg {
+    height: 200px;
+    width: 300px;
+    background-color: #D21034;
+    margin: 25px 10px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.mald-inner {
+    background-color: #007E3A;
+    height: 100px;
+    width: 200px;
+    margin: auto;
+    margin-top: 50px;
+}
+
+.mald-moon {
+    width: 70px;
+    height: 70px;
+    background-color: transparent;
+    box-shadow: inset 15px 0 0 0 white;
+    border-radius: 50%;
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 15px;
+}
+
+
+.greece-bg {
+    height: 200px;
+    width: 300px;
+    background-color:#0D5EAF;
+    margin: 25px 10px;
+    display: inline-block;
+    overflow: hidden;
+}
+
+.stripes {
+    height: 22.22px;
+    background-color: white;
+    margin-top: 22.22px;
+
+}
+
+.greece-corner {
+    height: 88.88px;
+    width: 120px;
+    background-color: #0D5EAF;
+    position: absolute;
+    margin-top: 0px;
+}
+
+
+.greece-vertical {
+    background-color: white;
+    height: 120px;
+    width: 22.22px;
+    position: absolute;
+    margin-top: -45px;
+    margin-left: 50px;    
+}
+
+.greece-horizontal {
+    background-color: white;
+    height: 22.22px;
+    width: 120px;
+    position: absolute;
+       
+}

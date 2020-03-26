@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=B, initial-scale=1.0">
+    <title>Bootcamp Primer</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <nav class="nav-main">
+        <div class="btn-toggle-nav" onclick="toggleNav()"></div>
+        <ul>
+            <li><a href="#">Home</a></li>
+            <li><a href="#">Portfolio</a></li>
+            <li><a href="#">About Us</a></li>
+            <li><a href="#">Gallery</a></li>
+            <li><a href="#">Contact</a></li>
+           
+        </ul>
+    </nav>
+
+    <aside class="nav-sidebar">
+        <ul>
+            <li><span>Projects</span></li>
+            <li><a href="#">Some random stuff</a></li>
+            <li><a href="#">More random stuff</a></li>
+            <li><a href="#">Even more random stuff</a></li>
+            <li><a href="#">Still more?</a></li>         
+        </ul>
+    </aside>
+
+    <div class="button">
+        <button class="btn" onclick="myFunction()"> Watch Video </button> 
+        <button class="btn" onclick="myFunction2()"> Learn More </button>
+    </div>
+
+    
+    <!-- For some strange reason, this exact same function doesn't work if I use it in my main.js file. Couldnt't figure out why -_- -->
+   <script>
+       function myFunction() {
+        alert("This button leads nowhere!")
+    }
+        function myFunction2() {
+            alert("This one also leads nowhere!")
+        }
+
+   </script>
+   
+    
+</body>
+<script src="main.js"></script>
+</html>

@@ -1,0 +1,38 @@
+h1 {
+    color: darkgreen;
+}
+
+h1, h2 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+}
+
+p {
+    line-height: 25px;
+}
+
+a {
+    text-decoration: none;
+}
+
+a :hover {
+    text-decoration: underline;
+    color: black;
+}
+
+.also {
+    text-transform: uppercase;
+}
+
+img {
+    clear: both;
+    float: left;
+    padding: 5px 25px;
+}
+
+ul {
+    overflow: hidden;
+}
+footer {
+    clear: both;
+}
